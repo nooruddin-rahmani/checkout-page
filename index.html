@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./images/devchallenges.png"
+      type="image/x-icon"
+    />
+
+    <link rel="stylesheet" href="./css/tailwind.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <title>Document</title>
+  </head>
+  <body class="font-mont text-gray-700">
+    <div>
+      <h1 class="text-2xl mt-8 ml-18 md:text-4xl md:ml-72">Checkout</h1>
+    </div>
+    <div class="flex flex-col md:flex-row-reverse justify-center">
+      <div
+        class="bg-gray-250 w-350 h-489 mx-3 mt-5 rounded-2xl md:w-383 md:h-535"
+      >
+        <div class="flex flex-row ml-26">
+          <div class="row-span-3 rounded-2xl mt-30 mr-4">
+            <img
+              class="rounded-2xl w-122 h-124 row-span-3 colspan-1"
+              src="./images/photo1.png"
+              alt=""
+            />
+          </div>
+          <div class="">
+            <div class="text-xs mt-30 md:text-lg">Vintage Backbag</div>
+            <span class="text-sm text-orange md:text-base">$54.99</span
+            ><span class="text-xxs line-through ml-3 text-center md:text-xs"
+              >$94.99</span
+            >
+            <div
+              class="
+                rounded-2xl
+                flex
+                justify-center
+                items-center
+                bg-gray-250
+                border border-gray-400
+                h-14
+                w-fit-content
+                mt-6
+              "
+            >
+              <button class="bg-gray-550 w-20 h-20 rounded ml-2">-</button>
+              <input
+                type="number"
+                class="w-90 text-center bg-gray-250"
+                value="1"
+              />
+              <button class="bg-gray-550 w-20 h-20 rounded mr-2">+</button>
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-row ml-26">
+          <div class="row-span-3 rounded-2xl mt-30 mr-4">
+            <img
+              class="rounded-2xl w-122 h-124 row-span-3 colspan-1"
+              src="./images/photo2.png"
+              alt=""
+            />
+          </div>
+          <div class="">
+            <div class="text-xs mt-30 md:text-lg">Levi Shoes</div>
+            <span class="text-sm text-orange md:text-base">$74.99</span
+            ><span class="text-xxs line-through ml-3 text-center md:text-xs"
+              >$124.99</span
+            >
+            <div
+              class="
+                rounded-2xl
+                flex
+                justify-center
+                items-center
+                bg-gray-250
+                border border-gray-400
+                h-14
+                w-fit-content
+                mt-6
+              "
+            >
+              <button class="bg-gray-550 w-20 h-20 rounded ml-2">-</button>
+              <input
+                type="number"
+                class="w-90 text-center bg-gray-250"
+                value="1"
+              />
+              <button class="bg-gray-550 w-20 h-20 rounded mr-2">+</button>
+            </div>
+          </div>
+        </div>
+
+        <div class="flex flex-col mt-87 ml-26 mr-25">
+          <div class="flex justify-between border-t border-gray-300 pt-2">
+            <span class="text-sm md:text-lg">Shipping</span>
+            <span class="text-sm">$19</span>
+          </div>
+          <div class="flex justify-between border-t border-gray-300 pt-2">
+            <span class="text-sm md:text-lg">Total</span>
+            <span class="text-sm">$148.98</span>
+          </div>
+        </div>
+      </div>
+      <div class="mx-3">
+        <div class="text-gray-500">
+          <h2 class="text-sm mt-10 md:text-xl">Contact infomation</h2>
+          <div class="flex flex-col mt-3">
+            <label for="email" class="text-xxs md:text-xs">E-mail</label>
+            <div
+              class="
+                border border-gray-400
+                rounded-2xl
+                flex
+                items-center
+                md:w-465 md:h-56
+              "
+            >
+              <span class="material-icons my-2 mx-3"> mail </span>
+              <input
+                type="email"
+                name="email"
+                placeholder="Enter your email..."
+              />
+            </div>
+          </div>
+          <div class="flex flex-col mt-3">
+            <label for="phone" class="text-xxs md:text-xs">Phone</label>
+            <div
+              class="
+                border border-gray-400
+                rounded-2xl
+                flex
+                items-center
+                md:w-465 md:h-56
+              "
+            >
+              <span class="material-icons my-2 mx-3"> phone </span>
+              <input
+                type="text"
+                name="phone"
+                placeholder="Enter your phone..."
+              />
+            </div>
+          </div>
+        </div>
+
+        <div class="text-gray-500">
+          <h2 class="text-sm mt-10">Shipping address</h2>
+          <div class="flex flex-col mt-3">
+            <label for="fullname" class="text-xxs md:text-xs">Full name</label>
+            <div
+              class="
+                border border-gray-400
+                rounded-2xl
+                flex
+                items-center
+                md:w-465 md:h-56
+              "
+            >
+              <span class="material-icons my-2 mx-3">
+                <span class="material-icons"> account_circle </span>
+              </span>
+              <input type="text" name="fullname" placeholder="Rodney Cotton" />
+            </div>
+          </div>
+          <div class="flex flex-col mt-3">
+            <label for="address" class="text-xxs md:text-xs">Address</label>
+            <div
+              class="
+                border border-gray-400
+                rounded-2xl
+                flex
+                items-center
+                md:w-465 md:h-56
+              "
+            >
+              <span class="material-icons my-2 mx-3"> home </span>
+              <input type="text" name="address" placeholder="Your address..." />
+            </div>
+          </div>
+          <div class="flex flex-col mt-3">
+            <label for="city" class="text-xxs md:text-xs">City</label>
+            <div
+              class="
+                border border-gray-400
+                rounded-2xl
+                flex
+                items-center
+                md:w-465 md:h-56
+              "
+            >
+              <span class="material-icons my-2 mx-3">
+                <span class="material-icons"> location_city </span>
+              </span>
+              <input type="text" name="city" placeholder="Your city..." />
+            </div>
+          </div>
+          <div class="flex flex-row">
+            <div class="flex flex-col mt-3 w-1/2 mr-6 md:w-60">
+              <label for="country" class="text-xxs md:text-xs">Country</label>
+              <div
+                class="
+                  border border-gray-400
+                  rounded-2xl
+                  flex
+                  items-center
+                  md:h-56
+                "
+              >
+                <span class="material-icons my-2 mx-3">
+                  <span class="material-icons"> location_city </span>
+                </span>
+                <input
+                  class="w-24 md:w-36"
+                  type="text"
+                  name="country"
+                  placeholder="Your country.."
+                />
+              </div>
+            </div>
+            <div class="flex flex-col mt-3 w-1/2 md:w-52">
+              <label for="postal-code" class="text-xxs md:text-xs"
+                >Postal code</label
+              >
+              <div
+                class="
+                  border border-gray-400
+                  rounded-2xl
+                  flex
+                  items-center
+                  md:h-56
+                "
+              >
+                <span class="material-icons my-2 mx-3">
+                  <span class="material-icons"> markunread_mailbox </span>
+                </span>
+                <input
+                  class="w-24 md:w-36"
+                  type="text"
+                  name="postal-code"
+                  placeholder="Your postal code.."
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="flex flex-col mb-94">
+          <div class="my-5 flex col-span-2">
+            <input type="checkbox" />
+            <label class="text-xxs mx-2 md:text-xs"
+              >Save this information for next time</label
+            >
+          </div>
+          <button
+            class="
+              outline-none
+              bg-orange
+              text-white
+              px-10
+              py-4
+              rounded-2xl
+              w-166
+              h-54
+              ml-46
+              md:ml-300
+            "
+          >
+            Continue
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="text-gray-300 mb-6 text-sm flex justify-center">
+      <span
+        >created by
+        <a
+          class="text-gray-400 font-bold"
+          href="https://github.com/nooruddin-rahmani"
+          >Nooruddin</a
+        >
+        - devChallenges.io</span
+      >
+    </div>
+  </body>
+</html>
+<!--     <span class="material-icons">
+expand_more
+</span>
+  -->
